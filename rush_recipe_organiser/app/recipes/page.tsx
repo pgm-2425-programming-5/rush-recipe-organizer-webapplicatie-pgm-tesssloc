@@ -1,5 +1,6 @@
 'use client'
 
+import AddRecipe from "@/components/forms/Addrecipe";
 import { useEffect, useState } from "react";
 
 type Recipe = {
@@ -36,6 +37,8 @@ export default function Page() {
                 </div>
             ))}
             </div>
+
+            <AddRecipe />
         </div>
     )
 };
