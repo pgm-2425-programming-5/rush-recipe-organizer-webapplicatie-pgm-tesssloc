@@ -28,9 +28,9 @@ export default function AddRecipe({recipes, setRecipes}: AddRecipeProps) {
         event.preventDefault();
 
         const newRecipe: Recipe = {
-            id: 5,
+            id: 5, // still need to add this properly
             title: title,
-            ingredients: ingredients,
+            ingredients: ingredients, // still need to make this return an array of ingredients
             instructions: instructions,
             category: category
         }
