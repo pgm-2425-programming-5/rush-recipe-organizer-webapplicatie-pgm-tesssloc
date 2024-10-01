@@ -1,10 +1,11 @@
 'use client'
 
 import { useState } from "react";
+import Recipe from "../common/Recipe";
 
 type AddRecipeProps = {
     recipes: Recipe;
-    setRecipes: (recipe: Recipe) => void;
+    setRecipes: (recipes: Recipe[]) => void;
 }
 
 type Recipe = {
