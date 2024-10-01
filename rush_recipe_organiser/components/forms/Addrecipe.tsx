@@ -4,7 +4,7 @@ import { useState } from "react";
 import Recipe from "../common/Recipe";
 
 type AddRecipeProps = {
-    recipes: Recipe;
+    recipes: Recipe[];
     setRecipes: (recipes: Recipe[]) => void;
 }
 
