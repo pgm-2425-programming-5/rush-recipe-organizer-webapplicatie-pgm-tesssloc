@@ -38,7 +38,7 @@ export default function Page() {
             ))}
             </div>
 
-            <AddRecipe />
+            <AddRecipe recipes={recipes} setRecipes={setRecipes} />
         </div>
     )
 };
