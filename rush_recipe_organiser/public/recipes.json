@@ -1,0 +1,45 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "title": "Pannenkoeken",
+        "ingredients": [
+          "200g bloem",
+          "2 eieren",
+          "300ml melk",
+          "Snufje zout",
+          "Boter voor het bakken"
+        ],
+        "instructions": "Meng de bloem, eieren, melk en zout in een kom. Klop tot een glad beslag. Verhit de boter in een koekenpan en bak de pannenkoeken goudbruin aan beide kanten.",
+        "category": "Ontbijt"
+      },
+      {
+        "id": 2,
+        "title": "Caesarsalade",
+        "ingredients": [
+          "1 krop romaine sla",
+          "100g croutons",
+          "50g Parmezaanse kaas",
+          "200g kipfilet",
+          "Caesardressing"
+        ],
+        "instructions": "Gril de kipfilet en snijd deze in dunne plakjes. Meng de romaine sla, croutons, kip en Parmezaanse kaas in een kom. Voeg de caesardressing toe en hussel alles goed door elkaar.",
+        "category": "Lunch"
+    },
+      {
+        "id": 3,
+        "title": "Spaghetti Bolognese",
+        "ingredients": [
+          "400g spaghetti",
+          "500g rundergehakt",
+          "1 ui",
+          "2 teentjes knoflook",
+          "400g tomatenblokjes",
+          "Olijfolie",
+          "Parmezaanse kaas"
+        ],
+        "instructions": "Kook de spaghetti volgens de aanwijzingen op de verpakking. Verhit olijfolie in een pan en fruit de ui en knoflook. Voeg het gehakt toe en bak rul. Voeg de tomatenblokjes toe en laat het geheel 15 minuten sudderen. Serveer de saus over de spaghetti en strooi Parmezaanse kaas erover.",
+        "category": "Diner"
+      }
+    ]
+  }
