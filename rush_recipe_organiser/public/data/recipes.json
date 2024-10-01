@@ -11,7 +11,7 @@
           "Boter voor het bakken"
         ],
         "instructions": "Meng de bloem, eieren, melk en zout in een kom. Klop tot een glad beslag. Verhit de boter in een koekenpan en bak de pannenkoeken goudbruin aan beide kanten.",
-        "category": "Ontbijt"
+        "category": "ontbijt"
       },
       {
         "id": 2,
@@ -24,7 +24,7 @@
           "Caesardressing"
         ],
         "instructions": "Gril de kipfilet en snijd deze in dunne plakjes. Meng de romaine sla, croutons, kip en Parmezaanse kaas in een kom. Voeg de caesardressing toe en hussel alles goed door elkaar.",
-        "category": "Lunch"
+        "category": "lunch"
     },
       {
         "id": 3,
@@ -39,7 +39,7 @@
           "Parmezaanse kaas"
         ],
         "instructions": "Kook de spaghetti volgens de aanwijzingen op de verpakking. Verhit olijfolie in een pan en fruit de ui en knoflook. Voeg het gehakt toe en bak rul. Voeg de tomatenblokjes toe en laat het geheel 15 minuten sudderen. Serveer de saus over de spaghetti en strooi Parmezaanse kaas erover.",
-        "category": "Diner"
+        "category": "diner"
       }
     ]
   }
