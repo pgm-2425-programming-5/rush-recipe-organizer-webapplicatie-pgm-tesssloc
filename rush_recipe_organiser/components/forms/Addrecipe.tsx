@@ -20,7 +20,7 @@ type Category = 'ontbijt' | 'lunch' | 'diner' | 'snack';
 
 export default function AddRecipe({recipes, setRecipes}: AddRecipeProps) {
     const [title, setTitle] = useState<string>('');
-    const [ingredients, setIngredients] = useState<string[]>([]);
+    const [ingredients, setIngredients] = useState<string>('');
     const [instructions, setInstructions] = useState<string>('');
     const [category, setCategory] = useState<Category>('lunch');
 
@@ -30,14 +30,13 @@ export default function AddRecipe({recipes, setRecipes}: AddRecipeProps) {
         const newRecipe: Recipe = {
             id: 5, // still need to add this properly
             title: title,
-            ingredients: ingredients, // still need to make this return an array of ingredients
+            ingredients: ingredients.split(','),
             instructions: instructions,
             category: category
-        }
+        };
 
         setRecipes([...recipes, newRecipe]);
-
-    }
+    };
 
     return (
         <form className="pt-8">
@@ -48,7 +47,7 @@ export default function AddRecipe({recipes, setRecipes}: AddRecipeProps) {
             <div className="mb-4">
                 <label htmlFor="ingredients" className="block text-sm font-medium text-gray-700">Ingrediënten</label>
                 <input type="text" id="ingredients" name="ingredients" value={ingredients}
-          onChange={(e: React.ChangeEvent<HTMLInputElement>) => setIngredients(e.target.value.split(','))}
+          onChange={(e) => setIngredients(e.target.value)}
           className="mt-1 p-2 border border-gray-300 rounded" />
             </div>
             <div className="mb-4">
