@@ -28,7 +28,7 @@ export default function AddRecipe({recipes, setRecipes}: AddRecipeProps) {
         event.preventDefault();
 
         const newRecipe: Recipe = {
-            id: 5, // still need to add this properly
+            id: recipes.length + 1,
             title: title,
             ingredients: ingredients.split(','),
             instructions: instructions,
